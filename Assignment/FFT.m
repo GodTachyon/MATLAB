@@ -1,3 +1,20 @@
+% The FFT.m file reads the DNS data and now manipulate the wall normal
+% velocity component (u) at X = 0.06 location. FFT is used to analyse the
+% magnitude - frequency relationship. Effects of regular plot and log-log
+% plot is also investigated. Filtering methods are utilised and their
+% effects explored.
+% Statistical methods are then carried out to find out the effectiveness of
+% wall normal velocity component (u). Mean, Standard Deviation, Skewness
+% and Kurtosis quantities are utilised in creating a Probability Density
+% Function (PDF) and plotted. Pearson Correlation is utilised to test
+% relationship between the u - component and v - component.
+%
+% Code for Reading the initial data was provided by Dr. Tamas Jozsa for the
+% Data and Uncertainity Analysis Module.
+% Further development was done by Aswath Ashok for the Assignment for the
+% above module.
+% Created on 22/12/23. Updates can be checked on github.
+
 %% READ CHANNEL PARAMETERS AND SPATIO-TEMPORAL AVERAGES
 
 % read parameters
